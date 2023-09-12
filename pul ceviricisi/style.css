@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgreen;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    background-color: darksalmon;
+
+
+    #amount{
+        padding: 5px;
+    }
+
+    #result{
+        padding: 5px;
+    }
+
+    #firstCurrencyOption{
+        padding: 5px;
+    }
+    #secondCurrencyOption{
+        padding: 5px;
+    }
+
+
+    .header-wrapper{
+        padding-bottom: 16px;
+    }
+
+    .span{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 16px;
+    }
+}
+.container{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 241px;
+    margin-bottom: 10px;
+}
+
